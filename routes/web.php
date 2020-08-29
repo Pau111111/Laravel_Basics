@@ -23,6 +23,6 @@ Route::get('/getting', function () {
     echo "I'm sending a GET request!";
 });
 
-Route::post('/posting', function () {
+Route::post('/postting', function () {
     echo "I'm sending a POST request!";
 });
