@@ -20,6 +20,9 @@
 - ```php composer.phar require "laravel/installer"```
 - ```php composer.phar create-project --prefer-dist laravel/laravel blog```
 - ```php artisan make:controller HomeController```
+- ```php artisan make:model Message```
+- You need to open the new file and edit the properties of the table```php artisan make:migration create_messages_table```
+- Now you create the table ```php artisan migrate```
 
 ## Useful Commands
 - Start server: ```php artisan serve```
