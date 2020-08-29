@@ -19,10 +19,15 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'HomeController@index');
 
-Route::get('/getting', function () {
-    echo "I'm sending a GET request!";
-});
+Route::post('/create', 'MessageController@create');
 
-Route::post('/postting', function () {
-    echo "I'm sending a POST request!";
-});
+Route::get('/message/{id}', 'MessageController@view');
+
+
+// Route::get('/getting', function () {
+//     echo "I'm sending a GET request!";
+// });
+
+// Route::post('/postting', function () {
+//     echo "I'm sending a POST request!";
+// });

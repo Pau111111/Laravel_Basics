@@ -9,6 +9,10 @@
 
 # Laravel_Basics
 
+## Tutorial
+
+- https://www.youtube.com/watch?v=ubfxi21M1vQ
+
 ## Requirements
 
 - Composer: https://getcomposer.org/download/
@@ -23,6 +27,7 @@
 - ```php artisan make:model Message```
 - You need to open the new file and edit the properties of the table```php artisan make:migration create_messages_table```
 - Now you create the table ```php artisan migrate```
+- ```php artisan make:controller MessageController```
 
 ## Useful Commands
 - Start server: ```php artisan serve```

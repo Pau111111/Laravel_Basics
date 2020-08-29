@@ -2,11 +2,20 @@
 
 namespace App\Http\Controllers;
 
+use App\Message;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
     public function index(){
-        return view('welcome');
+        $messages = Message::all();
+
+        // foreach($messages as $message){
+        //     echo $message->title;
+        // }
+
+        return view('home', [
+            'messages' => $messages
+        ]);
     }
 }
