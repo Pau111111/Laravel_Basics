@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                Laravel 
                 </div>
 
                 <div class="links">
@@ -94,6 +94,21 @@
                     <a href="https://vapor.laravel.com">Vapor</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
+                <!-- Some basic operations -->
+                <div>
+                    <!-- IF statement -->
+                    @if(1==1)
+                        {{ date("Y-m-d H:i:s") }}
+                    @else
+                        No!
+                    @endif
+
+                    <!-- Foreach iteration -->
+                    @foreach (['one', 'two', 'tree'] as $number)
+                        {{ $number }}
+                    @endforeach
+                </div>
+            </div>
             </div>
         </div>
     </body>

@@ -19,6 +19,10 @@
 
 - ```php composer.phar require "laravel/installer"```
 - ```php composer.phar create-project --prefer-dist laravel/laravel blog```
+- ```php artisan make:controller HomeController```
+
+## Useful Commands
+- Start server: ```php artisan serve```
 
 ---
 
