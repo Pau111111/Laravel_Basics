@@ -23,6 +23,10 @@ Route::post('/create', 'MessageController@create');
 
 Route::get('/message/{id}', 'MessageController@view');
 
+Route::get('/welcome', function () {
+    return view('welcome');
+});
+
 
 // Route::get('/getting', function () {
 //     echo "I'm sending a GET request!";
