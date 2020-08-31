@@ -32,6 +32,13 @@
 ## Useful Commands
 - Start server: ```php artisan serve```
 
+## Setup Laravel Project cloned from GitHub
+https://devmarketer.io/learn/setup-laravel-project-cloned-github-com/
+- ```composer install```
+- ```npm install```
+- ```cp .env.example .env```
+- ```php artisan key:generate```
+- ```php artisan migrate```
 ---
 
 ## About Laravel
