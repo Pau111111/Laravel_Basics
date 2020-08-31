@@ -31,6 +31,7 @@
 
 ## Useful Commands
 - Start server: ```php artisan serve```
+- Rollback migrations ```php artisan migrate:rollback```
 
 ## Setup Laravel Project cloned from GitHub
 https://devmarketer.io/learn/setup-laravel-project-cloned-github-com/
