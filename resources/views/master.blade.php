@@ -13,6 +13,6 @@
     <h1>Master extended!</h1>
     <!-- If i dont use yield content here i will not be able to see nothing -->
     @yield('content')
-
+    @yield('script')
 </body>
 </html>

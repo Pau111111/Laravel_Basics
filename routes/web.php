@@ -27,6 +27,8 @@ Route::get('/welcome', function () {
     return view('welcome');
 });
 
+Route::get('/api/messages', 'MessageController@getByAPI');
+
 
 // Route::get('/getting', function () {
 //     echo "I'm sending a GET request!";

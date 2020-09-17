@@ -29,4 +29,9 @@ class MessageController extends Controller
             'message' => $message
         ]);
     }
+
+    public function getByAPI(){
+        $messages = Message::all();
+        return $messages;
+    }
 }
